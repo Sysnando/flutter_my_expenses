@@ -13,4 +13,5 @@ class Transaction {
       @required this.amount, 
       @required this.date
     });
+
 } 

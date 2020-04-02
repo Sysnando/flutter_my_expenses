@@ -2,7 +2,7 @@ class Currency {
   final double amount;
 
   get() {
-    return '\$' + this.amount.toString();
+    return '\$' + this.amount.toStringAsFixed(2);
   }
   
   Currency(this.amount);
