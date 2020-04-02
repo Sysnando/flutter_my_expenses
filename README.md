@@ -1,6 +1,10 @@
 # my_expenses
 
-A new Flutter project.
+This project is just to understands and learn the principal concepts of Flutter and Dart. This project will cover some of the principal  Widgets such as Columns/Rows/Text/TextField/Scaffold/Container and etc. 
+
+If you want to learn more about it, please the the course below:
+https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/
+
 
 ## Getting Started
 
@@ -14,3 +18,4 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
