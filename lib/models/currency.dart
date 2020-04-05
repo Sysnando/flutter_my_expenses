@@ -1,8 +1,8 @@
 class Currency {
   final double amount;
 
-  get() {
-    return '\$' + this.amount.toStringAsFixed(2);
+  get(int round) {
+    return '\$' + this.amount.toStringAsFixed(round);
   }
   
   Currency(this.amount);

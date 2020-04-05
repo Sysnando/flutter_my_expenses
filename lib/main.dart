@@ -12,8 +12,8 @@ class Expenses extends StatelessWidget {
       home: HomePage(),
       // this them will be shared in the whole app material components by using theme.of(context)
       theme: ThemeData(
-        primarySwatch: Colors.green,
-        accentColor: Colors.purple,
+        primarySwatch: Colors.indigo,
+        accentColor: Colors.cyan,
         fontFamily: 'Quicksand', // has to match the id on the fonts name
         // default content theme
         textTheme: ThemeData.light().textTheme.copyWith(
@@ -21,6 +21,9 @@ class Expenses extends StatelessWidget {
             fontFamily: 'OpenSans',
             fontSize: 15,
             fontWeight: FontWeight.bold
+          ),
+          button: TextStyle(
+            color: Colors.white
           )
         ),
         // default bar theme
